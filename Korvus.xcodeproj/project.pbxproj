@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14832BAA27F2AA450B5E723F /* Pods_KorvusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04C18C91CFE655E388B6A55 /* Pods_KorvusTests.framework */; };
+		97449F69211F78C30060D0FF /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97449F68211F78C30060D0FF /* CellView.swift */; };
 		9796C2EB211F37390084F4D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9796C2EA211F37390084F4D7 /* AppDelegate.swift */; };
 		9796C2ED211F37390084F4D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9796C2EC211F37390084F4D7 /* ViewController.swift */; };
 		9796C2F0211F37390084F4D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9796C2EE211F37390084F4D7 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		9796C2F5211F373A0084F4D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9796C2F3211F373A0084F4D7 /* LaunchScreen.storyboard */; };
 		9796C300211F373A0084F4D7 /* KorvusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9796C2FF211F373A0084F4D7 /* KorvusTests.swift */; };
 		9796C30B211F373A0084F4D7 /* KorvusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9796C30A211F373A0084F4D7 /* KorvusUITests.swift */; };
+		BA6B39AAB545A6B4BAC3E8E4 /* Pods_KorvusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E7B9B543052FB6A503508A /* Pods_KorvusUITests.framework */; };
+		FC755303DF13E517E5A4D37D /* Pods_Korvus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE85D469410E823758C08BE /* Pods_Korvus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B3532732E84032185C99E40 /* Pods-KorvusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KorvusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KorvusUITests/Pods-KorvusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		748BAB7F4C794A036B1947E9 /* Pods-Korvus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Korvus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Korvus/Pods-Korvus.debug.xcconfig"; sourceTree = "<group>"; };
+		79D6E94926B853CE5C9F5953 /* Pods-Korvus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Korvus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Korvus/Pods-Korvus.release.xcconfig"; sourceTree = "<group>"; };
+		7C6A8F2B5A3B53F899961EC3 /* Pods-KorvusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KorvusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KorvusUITests/Pods-KorvusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		97449F68211F78C30060D0FF /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 		9796C2E7211F37390084F4D7 /* Korvus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Korvus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9796C2EA211F37390084F4D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9796C2EC211F37390084F4D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		9796C306211F373A0084F4D7 /* KorvusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KorvusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9796C30A211F373A0084F4D7 /* KorvusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KorvusUITests.swift; sourceTree = "<group>"; };
 		9796C30C211F373A0084F4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DA7B61C31B52BB1CA3B834 /* Pods-KorvusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KorvusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KorvusTests/Pods-KorvusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B04C18C91CFE655E388B6A55 /* Pods_KorvusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KorvusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E7B9B543052FB6A503508A /* Pods_KorvusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KorvusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE85D469410E823758C08BE /* Pods_Korvus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Korvus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3476CB9ED15F07E37463B57 /* Pods-KorvusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KorvusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KorvusTests/Pods-KorvusTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC755303DF13E517E5A4D37D /* Pods_Korvus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14832BAA27F2AA450B5E723F /* Pods_KorvusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6B39AAB545A6B4BAC3E8E4 /* Pods_KorvusUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		117D574B9D0C01867D6246D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				748BAB7F4C794A036B1947E9 /* Pods-Korvus.debug.xcconfig */,
+				79D6E94926B853CE5C9F5953 /* Pods-Korvus.release.xcconfig */,
+				A1DA7B61C31B52BB1CA3B834 /* Pods-KorvusTests.debug.xcconfig */,
+				F3476CB9ED15F07E37463B57 /* Pods-KorvusTests.release.xcconfig */,
+				6B3532732E84032185C99E40 /* Pods-KorvusUITests.debug.xcconfig */,
+				7C6A8F2B5A3B53F899961EC3 /* Pods-KorvusUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5DC63E3A7ACD27F7589F40A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE85D469410E823758C08BE /* Pods_Korvus.framework */,
+				B04C18C91CFE655E388B6A55 /* Pods_KorvusTests.framework */,
+				C8E7B9B543052FB6A503508A /* Pods_KorvusUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9796C2DE211F37380084F4D7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				9796C2FE211F373A0084F4D7 /* KorvusTests */,
 				9796C309211F373A0084F4D7 /* KorvusUITests */,
 				9796C2E8211F37390084F4D7 /* Products */,
+				117D574B9D0C01867D6246D5 /* Pods */,
+				5DC63E3A7ACD27F7589F40A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,7 @@
 				9796C2F1211F373A0084F4D7 /* Assets.xcassets */,
 				9796C2F3211F373A0084F4D7 /* LaunchScreen.storyboard */,
 				9796C2F6211F373A0084F4D7 /* Info.plist */,
+				97449F68211F78C30060D0FF /* CellView.swift */,
 			);
 			path = Korvus;
 			sourceTree = "<group>";
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9796C30F211F373A0084F4D7 /* Build configuration list for PBXNativeTarget "Korvus" */;
 			buildPhases = (
+				712B7950E5644C98051031BC /* [CP] Check Pods Manifest.lock */,
 				9796C2E3211F37390084F4D7 /* Sources */,
 				9796C2E4211F37390084F4D7 /* Frameworks */,
 				9796C2E5211F37390084F4D7 /* Resources */,
+				15C2B550DC05D215EAD0C81E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9796C312211F373A0084F4D7 /* Build configuration list for PBXNativeTarget "KorvusTests" */;
 			buildPhases = (
+				0B0418EC1C739D0331D2D067 /* [CP] Check Pods Manifest.lock */,
 				9796C2F7211F373A0084F4D7 /* Sources */,
 				9796C2F8211F373A0084F4D7 /* Frameworks */,
 				9796C2F9211F373A0084F4D7 /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9796C315211F373A0084F4D7 /* Build configuration list for PBXNativeTarget "KorvusUITests" */;
 			buildPhases = (
+				F920AFD79D4780629E29A24A /* [CP] Check Pods Manifest.lock */,
 				9796C302211F373A0084F4D7 /* Sources */,
 				9796C303211F373A0084F4D7 /* Frameworks */,
 				9796C304211F373A0084F4D7 /* Resources */,
@@ -251,12 +298,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B0418EC1C739D0331D2D067 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KorvusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15C2B550DC05D215EAD0C81E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Korvus/Pods-Korvus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Korvus/Pods-Korvus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		712B7950E5644C98051031BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Korvus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F920AFD79D4780629E29A24A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KorvusUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9796C2E3211F37390084F4D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9796C2ED211F37390084F4D7 /* ViewController.swift in Sources */,
+				97449F69211F78C30060D0FF /* CellView.swift in Sources */,
 				9796C2EB211F37390084F4D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,11 +551,13 @@
 		};
 		9796C310211F373A0084F4D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748BAB7F4C794A036B1947E9 /* Pods-Korvus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8HG35T934K;
 				INFOPLIST_FILE = Korvus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,11 +571,13 @@
 		};
 		9796C311211F373A0084F4D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D6E94926B853CE5C9F5953 /* Pods-Korvus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8HG35T934K;
 				INFOPLIST_FILE = Korvus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +591,7 @@
 		};
 		9796C313211F373A0084F4D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1DA7B61C31B52BB1CA3B834 /* Pods-KorvusTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +613,7 @@
 		};
 		9796C314211F373A0084F4D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3476CB9ED15F07E37463B57 /* Pods-KorvusTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +635,7 @@
 		};
 		9796C316211F373A0084F4D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B3532732E84032185C99E40 /* Pods-KorvusUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +656,7 @@
 		};
 		9796C317211F373A0084F4D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6A8F2B5A3B53F899961EC3 /* Pods-KorvusUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
